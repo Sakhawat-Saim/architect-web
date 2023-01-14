@@ -69,6 +69,27 @@ nav ul li {
     margin-top: 50px;
 }
 
+.architect-container {
+    display: flex;
+    padding: 85px 150px;
+    gap: 70px;
+}
+
+.list-architect {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+
+.feature-architect {
+    width: 537px;
+    height: 304px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
 .img-header {
     width: 80%;
     margin-left: auto;
@@ -77,5 +98,10 @@ nav ul li {
     padding-bottom: 45px;
 }
 
+.feature-architect h2 {
+    font-size: 2.9em;
+    font-weight: 500;
+    color: gray;
+}
 
 
